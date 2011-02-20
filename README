@@ -1,3 +1,4 @@
 First version of a periodic GPS logger for Android.
 
-In its current (work-in-progress) form - you probably need root access to retreive the logs, but you have that, right :)
+In its current (work-in-progress) form - you probably need root access to retrieve the logs [1], but you have that, right :)
+[1] /data/data/com.mlashley.periodicgpslog/files/malcgps.log
