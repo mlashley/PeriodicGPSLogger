@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Periodic GPS Logger</string>
+    <string name="logfile">malcgps.log</string>
+    <string name="svcLabel">Service Status</string>
+    <string name="svcUnknown">Unknown</string>
+    <string name="svcRunning">Running</string>
+    <string name="svcStopped">Stopped</string>
+    <string name="lastUpdateLabel">Last Update</string>
+</resources>

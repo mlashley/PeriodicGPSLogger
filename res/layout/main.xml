@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:stretchColumns="0,1">
+		<TableRow>
+			<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/svcStatusLabel" android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:text="@string/svcLabel" />
+			<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/svcStatus" android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:text="@string/svcUnknown" />
+		</TableRow>
+		<TableRow>
+			<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/lastUpdateLabel" android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:text="@string/lastUpdateLabel" />
+			<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/lastUpdate" android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:text="@string/svcUnknown" />
+		</TableRow>
+	</TableLayout>
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:stretchColumns="0,1">
+		<TableRow>
+			<Button android:text="Start" android:id="@+id/StartButton"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			<Button android:text="Stop" android:id="@+id/StopButton"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			<Button android:text="ReadLogfile" android:id="@+id/ReadLogFileButton"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			<Button android:text="Set Interval" android:id="@+id/SetIntervalButton"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		</TableRow>
+	
+</TableLayout>
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:stretchColumns="0">
+		<TableRow>
+			<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/ScrollView01" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:scrollbars="horizontal|vertical">
+
+				<TextView android:id="@+id/LogFileTextView"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			</ScrollView>
+		</TableRow>
+	</TableLayout>
+</LinearLayout>
